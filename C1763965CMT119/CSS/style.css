@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #2f4353;
+    background-image: linear-gradient(135deg, #2f4353 0%, #5E5C5C 74%);
+}
+
+h1, h2, h3, h4, h5, h6{
+    Margin: 2%;
+    color: ivory;
+}
+
+p{
+    color:#39002e ;
+}
+
+a {
+    color:#39002e;
+    text-decoration: none;
+}
+
+.navigation{
+    margin-top: 8%;
+    line-height: 0%;
+    font-size: 200%;
+    text-align:center;
+    
+}
+
+.NavLink{
+    color:#39002e ;
+    text-decoration: None ;
+    
+}
+.NavLink:hover{
+    color:maroon;
+    text-decoration-color: maroon;
+}
+
+.flexHomeNav{
+    display:flex;
+    font-size: 200%;
+    justify-content: center;
+    margin: 5%;
+    color: #39002e
+}
+
+.HeadLiner{
+    margin: 10%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.BackgroundDefault{
+    width: 100%;
+    height: 100%;
+    ;
+    
+}
+
+.ParagraphTextList{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 115%;
+    color: #39002e;
+}
+
+.ParagraphText{
+    margin: 5%;
+    font-size: 115%;
+    color: #39002e;
+}
+
+.textPapert{
+    text-align: center;
+}
+
+.imgPapert{
+    display: block;
+    margin: auto;
+}
+
+.Vaughan{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgVaughan{
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
+    margin-right: 2%; 
+}
+
+
+.textVaughan{
+    font-size: 135%;
+    margin-right: 2%;
+    margin-left: 2%; 
+    flex-shrink: 40;
+    
+}
+
+.textGibbs{
+    font-size: 125%;
+    margin: 5%
+}
+
+.imgGibbs{
+    display: block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.hrLineBreak{
+    height: 0.5%;
+    border-width: 0%;
+    text-align: center;
+    margin: 1.5%;
+    color: #979182;
+    background-color: #979182;
+    border-color: #979182;
+}
+
+.Reference{
+    margin: 2%;
+    color: #39002e;
+}
